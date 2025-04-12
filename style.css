@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+  
+    background: linear-gradient(135deg, #091edd, #f70451);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dde4ee;
+  }
+  .app {
+    background: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .app h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #dde4ee;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+  }
+  
+  /* Quiz Section */
+  .quiz {
+    padding: 20px 0;
+  }
+  
+  .quiz h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e90aa6;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styles */
+  .btn {
+    background: rgba(0, 0, 0, 0.6);
+    color: #eaeeec;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn:hover:not([disabled]) {
+    background: #333;
+    color: #fff;
+  }
+  
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  /* Next Button */
+  #next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 600;
+    width: 150px;
+    border: none;
+    padding: 12px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+    transition: background 0.3s;
+  }
+  
+  #next-btn:hover {
+    background: #003080;
+  }
+  
+  /* Feedback Classes */
+  .correct {
+    background: #07f06c;
+    color: #003080;
+  }
+  
+  .incorrect {
+    background: #ff9393;
+    color: #003080;
+  }
+  
+  /* Timer */
+  #timer {
+    color: #dde4ee;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: right;
+  }
