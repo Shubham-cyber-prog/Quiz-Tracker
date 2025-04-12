@@ -1,2 +1,2 @@
 # Quiz-Tracker
-Shubham-cyber-prog/Quiz-Tracke
+Shubham-cyber-prog/Quiz-Tracker
